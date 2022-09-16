@@ -1,7 +1,6 @@
 <script setup>
-import gsap from "gsap";
+import { gsap } from "gsap/dist/gsap";
 import { ArrowUturnRightIcon, ArrowPathIcon } from "@heroicons/vue/24/outline";
-import { Teleport } from "vue";
 
 const tl = gsap.timeline({
   duration: 1,
