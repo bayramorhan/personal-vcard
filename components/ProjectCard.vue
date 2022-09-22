@@ -3,7 +3,7 @@
     <div
       class="flex items-center justify-between border-b mb-4 pb-2.5 border-gray-700"
     >
-      <h2 class="uppercase text-xs text-gray-500">projects</h2>
+      <h2 class="uppercase text-xs text-gray-400">projects</h2>
     </div>
 
     <div class="bg-gray-900 p-4 text-green-500">

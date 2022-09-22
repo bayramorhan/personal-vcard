@@ -79,7 +79,7 @@ onMounted(async () => {
     <div
       class="flex items-center justify-between border-b mb-4 pb-2.5 border-gray-700"
     >
-      <h2 class="uppercase text-xs text-gray-500">skills</h2>
+      <h2 class="uppercase text-xs text-gray-400">skills</h2>
 
       <div class="flex items-center space-x-4">
         <button

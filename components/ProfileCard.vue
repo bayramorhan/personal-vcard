@@ -8,7 +8,7 @@ const showVideo = ref(false);
   <div class="bg-gray-800 pb-4 rounded border border-gray-800">
     <div class="flex items-center space-x-4 bg-[#263344] p-4">
       <img
-        src="/img/ob.jpg"
+        src="/img/orhan-bayram.jpg"
         class="w-14 h-14 rounded-full object-cover"
         alt=""
       />
