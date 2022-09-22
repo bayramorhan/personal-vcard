@@ -33,9 +33,15 @@ const skills = ref([
     progress: 65,
   },
   {
+    name: "Socket.io",
+    progress: 75,
+    increment: 0,
+  },
+  {
     name: "NodeJS",
     progress: 60,
   },
+
   {
     name: "Tailwind CSS",
     progress: 100,
@@ -83,7 +89,7 @@ onMounted(async () => {
 
       <div class="flex items-center space-x-4">
         <button
-          class="text-gray-500 hover:text-gray-300"
+          class="text-gray-400 hover:text-gray-300"
           @click="replayHandler"
         >
           <ArrowPathIcon
@@ -92,7 +98,7 @@ onMounted(async () => {
           />
         </button>
         <button
-          class="text-gray-500 hover:text-gray-300 rotate-180"
+          class="text-gray-400 hover:text-gray-300 rotate-180"
           @click="tl.reverse()"
         >
           <ArrowUturnRightIcon class="w-5" />

@@ -1,4 +1,6 @@
 <script setup>
+import { version, devDependencies } from "./package.json";
+
 useHead({
   htmlAttrs: {
     class: "bg-gray-900 h-full overflow-x-hidden",
@@ -24,10 +26,14 @@ useHead({
         <project-card />
         <experience-card />
       </section>
-      <footer class="pb-6">
-        <p class="text-xs text-gray-500 text-center">
+      <footer class="pb-6 text-xs text-gray-500 text-center space-y-2">
+        <p>
           ©2021-2022 All Rights Reserved. &middot; This website does not use any
           cookies
+        </p>
+        <p>
+          App Version {{ version }} &middot; Nuxt Version
+          {{ devDependencies.nuxt }}
         </p>
       </footer>
     </div>
