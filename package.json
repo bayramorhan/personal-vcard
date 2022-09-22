@@ -9,7 +9,7 @@
     "start": "node .output/server/index.mjs"
   },
   "devDependencies": {
-    "nuxt": "3.0.0-rc.10",
+    "nuxt": "3.0.0-rc.11",
     "tailwind-scrollbar": "^2.0.1"
   },
   "dependencies": {

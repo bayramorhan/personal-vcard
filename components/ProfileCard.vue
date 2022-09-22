@@ -1,5 +1,7 @@
 <script setup>
 import { VideoCameraSlashIcon } from "@heroicons/vue/20/solid";
+
+const showVideo = ref(false);
 </script>
 
 <template>
@@ -82,8 +84,26 @@ import { VideoCameraSlashIcon } from "@heroicons/vue/20/solid";
       <div
         class="w-full bg-gray-900 flex-1 flex flex-col items-center justify-center space-y-2.5"
       >
-        <VideoCameraSlashIcon class="w-10 text-gray-600" />
-        <p class="text-gray-600 text-sm">Video is not available yet</p>
+        <template v-if="!showVideo">
+          <VideoCameraSlashIcon class="w-10 text-gray-600" />
+          <p class="text-gray-600 text-sm">Video is not available yet</p>
+          <button
+            class="bg-transparent text-teal-600 px-4 py-2 rounded text-sm hover:bg-gray-50 hover:bg-opacity-5"
+            @click="showVideo = true"
+          >
+            Play another video instead?
+          </button>
+        </template>
+
+        <iframe
+          v-else
+          class="w-full h-full"
+          src="https://www.youtube.com/embed/rdi7G1hY4-w?autoplay=1"
+          title="Its My Life | Sri Lankan Version | Sandaru Sathsara"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
       </div>
     </div>
   </div>
