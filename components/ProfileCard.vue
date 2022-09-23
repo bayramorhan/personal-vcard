@@ -74,11 +74,14 @@ const showVideo = ref(false);
       </div>
     </div>
 
-    <div class="px-4 pt-6 space-y-6 flex flex-col h-[390px]">
+    <div class="px-4 pt-6 space-y-6 flex flex-col h-[440px]">
       <p class="text-gray-400 text-sm leading-6">
-        Throughout my career, I trained myself mainly on web development and
-        improved on this subject. I aim to keep the user experience at a high
-        level, and I continue to work on this.
+        Throughout my career, I improved myself mainly on web development and
+        the subjects related with it. Recently, I have been producing my own
+        special applications and designs. Im planning to improve myself much
+        more in this regard by making apps that comply with today's standards
+        and aim to keep the user experience at a high level, and I continue to
+        work on this.
       </p>
 
       <div

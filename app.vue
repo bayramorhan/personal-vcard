@@ -2,6 +2,7 @@
 import { version, devDependencies } from "./package.json";
 
 useHead({
+  title: "Orhan Bayram - Personal vCard",
   htmlAttrs: {
     class: "bg-gray-900 h-full overflow-x-hidden",
   },

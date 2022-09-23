@@ -107,7 +107,7 @@ onMounted(async () => {
     </div>
 
     <ul
-      class="h-96 overflow-y-auto scrollbar-thin scrollbar-track-gray-900 scrollbar-thumb-gray-700"
+      class="h-full overflow-y-auto scrollbar-thin scrollbar-track-gray-900 scrollbar-thumb-gray-700"
       :class="{ 'pr-6': skills.length > 7 }"
     >
       <li v-for="skill in skills" :key="skill.name" class="py-2.5 space-y-2">
