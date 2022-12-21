@@ -47,25 +47,15 @@ const experiences = [
 
 <template>
   <div class="bg-gray-800 pt-6 pb-8 px-8 rounded">
-    <div
-      class="flex items-center justify-between border-b mb-4 pb-2.5 border-gray-700"
-    >
+    <div class="flex items-center justify-between border-b mb-4 pb-2.5 border-gray-700">
       <h2 class="uppercase text-xs text-gray-400">experiences</h2>
     </div>
 
     <ul
-      class="space-y-4 max-h-96 overflow-y-scroll scrollbar-thin scrollbar-track-gray-900 scrollbar-thumb-gray-700 pr-6"
-    >
-      <li
-        class="p-4 rounded bg-gray-800 brightness-90 flex space-x-4 items-center"
-        v-for="experience in experiences"
-        :key="experience.title"
-      >
-        <img
-          :src="experience.imageURL"
-          class="w-12 h-12 rounded-full object-cover p-1 bg-white"
-          alt=""
-        />
+      class="space-y-2.5 max-h-96 overflow-y-scroll scrollbar-thin scrollbar-track-gray-900 scrollbar-thumb-gray-700 pr-6">
+      <li class="p-4 rounded bg-gray-800 brightness-90 flex space-x-4 items-center" v-for="experience in experiences"
+        :key="experience.title">
+        <img :src="experience.imageURL" class="w-12 h-12 rounded-full object-cover p-1 bg-white" alt="" />
 
         <div>
           <h2 class="font-medium text-gray-300 text-sm">
